@@ -57,7 +57,7 @@ def fetch_links(referer):
     # print(papers_dict.keys())
     return list(papers_dict.keys())
 
-print(fetch_links('https://ieeexplore.ieee.org/document/8301529/references'))
+# print(fetch_links('https://ieeexplore.ieee.org/document/8301529/references'))
         
 
 
