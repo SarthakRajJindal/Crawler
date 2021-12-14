@@ -29,7 +29,7 @@ response = requests.request("GET", url, headers=headers, data=payload)
 
 # convert json to dictionary
 data = json.loads(response.text)
-# print(data)
+print(data)
 
 # print(response.text)
 
