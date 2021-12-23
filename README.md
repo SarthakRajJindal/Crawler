@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 # Running Instructions
 
-1. Run the main.py file using python : "python main.py"
+1. Run the main.py file using python  ``` python main.py ``` 
 2. Enter the number of papers that are needed to be scraped.
 3. Wait for the scaping process, it can take a couple of minutes.
 
