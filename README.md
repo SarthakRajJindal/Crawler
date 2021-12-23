@@ -3,6 +3,13 @@
 This is a python based web crawler made for IEEE papers.
 It uses https://ieeexplore.ieee.org/document/8301529 as the start point and recursively traverses through the reference papers and extracts abstract data from them until it obtains a prespecified number of papers.
 
+# Requirements
+
+The program uses some python dependencies like bs4 and requests, install them by using. 
+```
+pip install -r requirements.txt
+```
+
 # Running Instructions
 
 1. Run the main.py file using python : "python main.py"
