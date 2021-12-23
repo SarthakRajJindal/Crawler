@@ -3,10 +3,17 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-# doc_link = "https://ieeexplore.ieee.org/document/8301529"
 doc_link = "/document/8301529"
 
-papers = fetch_links(doc_link)
+print('\nEnter the Maximum number of papers to be scraped: ')
+try:
+    max_papers = int(input())
+except ValueError:
+    max_papers = 10
+    print('Value entered is not an integer. Default value of 10 papers will be scraped.')
+
+print('\nPlease wait, scraping in progress...')
+papers = fetch_links(doc_link, max_papers)
 
 print('total papers:', len(papers))
 
